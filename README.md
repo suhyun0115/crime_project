@@ -1,11 +1,11 @@
-# ✒️ NLP, LLM project</br>AI 대화형 Chatbot 모델 개발
+# ✒️서울 지역구별 범죄건수와 경찰서 또는 CCTV의 상관관계 분석
 ## 👥 Team
-- Team name : DBDBDeep
-- Team members : 김유진, 이수현, 조서현
+- Team name : HEE
+- Team members : 함은규, 이수현, 이지우
 - * :clock1:시작일 : 2024.02.26(월)
-  * ⏰목표일 : 2024.03.15(금)
+  * ⏰목표일 : 2023.12.11(월)
 ## :books: skill
-- **Programming** <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+- **Programming** <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <https://simpleicons.org/icons/pandas.svg>
 - **Tools** <img src="https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"> <img src="https://img.shields.io/badge/googlecolab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
 - **Git** <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=jupyter&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
