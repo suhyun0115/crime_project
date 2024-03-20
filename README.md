@@ -20,24 +20,54 @@
   **2. 자료출처**</br>
        &nbsp;&nbsp;&nbsp; Dacon https://dacon.io/competitions/official/236216/overview/description/
 
-## Ⅱ. Data preprocessing & Modeling
-**1. 데이터 전처리**</br>
+## Ⅱ. 배경 
+  **1. 서울지도에 구별 범죄율과 경찰서 위치, CCTV비율을 표기**</br>
+       &nbsp;&nbsp;&nbsp; 1) 강남구가 가장 범죄건수가 많음</br>
+       &nbsp;&nbsp;&nbsp; 2) 범죄율과 경찰서(파출소), CCTV의 상관관계가 보이지 않음</br>
+       &nbsp;&nbsp;&nbsp; 3) CCTV 밀집구역 몇 곳 보임</br>
+       &nbsp;&nbsp;&nbsp; 4) 경찰서(파출소)는 구도심(사대문 근처)에 포진됨</br>
+       
+  **2. 자료출처**</br>
+       &nbsp;&nbsp;&nbsp; Dacon https://dacon.io/competitions/official/236216/overview/description/
+
+
+## Ⅱ. 분석
+**1. 데이터 기본분석(1)**</br>
        &nbsp;&nbsp;&nbsp; 1) DataFrame 변경 (id, category 삭제)</br>
        &nbsp;&nbsp;&nbsp; 2) Dataset 증강 (기존 카테고리를 제외하고 다른 카테고리 질문을 추가)</br>
        &nbsp;&nbsp;&nbsp; 3) Tokenizer</br>
-       
-**2. 모델 학습**</br>
+
+**1. 데이터 기본분석(2)**</br>
+       &nbsp;&nbsp;&nbsp; 1) DataFrame 변경 (id, category 삭제)</br>
+       &nbsp;&nbsp;&nbsp; 2) Dataset 증강 (기존 카테고리를 제외하고 다른 카테고리 질문을 추가)</br>
+       &nbsp;&nbsp;&nbsp; 3) Tokenizer</br>
+
+**1. 데이터 기본분석(3)**</br>
+       &nbsp;&nbsp;&nbsp; 1) DataFrame 변경 (id, category 삭제)</br>
+       &nbsp;&nbsp;&nbsp; 2) Dataset 증강 (기존 카테고리를 제외하고 다른 카테고리 질문을 추가)</br>
+       &nbsp;&nbsp;&nbsp; 3) Tokenizer</br>       
+
+**1. 데이터 기본분석(4)**</br>
+       &nbsp;&nbsp;&nbsp; 1) DataFrame 변경 (id, category 삭제)</br>
+       &nbsp;&nbsp;&nbsp; 2) Dataset 증강 (기존 카테고리를 제외하고 다른 카테고리 질문을 추가)</br>
+       &nbsp;&nbsp;&nbsp; 3) Tokenizer</br>       
+
+**2. 중간 결론**</br>
        &nbsp;&nbsp;&nbsp; 1) skt, kykim, kakao : Fine-tuning</br>
        &nbsp;&nbsp;&nbsp; 2) edentns, LDCC : QLoRA</br>
        &nbsp;&nbsp;&nbsp; 3) RAG</br>
 
+**3. 다른 원인 분석**</br>
+       &nbsp;&nbsp;&nbsp; 1) skt, kykim, kakao : Fine-tuning</br>
+       &nbsp;&nbsp;&nbsp; 2) edentns, LDCC : QLoRA</br>
+       &nbsp;&nbsp;&nbsp; 3) RAG</br>
   - 최종 모델 SKT 사용
 
 ## Ⅲ. 최종결론
 **1. 챗봇 서비스**</br>
-       &nbsp;&nbsp;&nbsp; 1) Streamlit 사용</br>
-       &nbsp;&nbsp;&nbsp; 2) speech_recognition 모듈 사용으로 대화형 챗봇 서비스 구현</br>
-       &nbsp;&nbsp;&nbsp; 3) 웹 배포</br>
+ &nbsp;&nbsp;&nbsp; 범죄의 건수는 인구수와 사업체수와 강한 상관관계를 보여줌</br>
+ &nbsp;&nbsp;&nbsp; 안전한 서울을 위해 인구당 CCTV 비율이 낮을 곳을 위주로 CCTV 설치(정비)하면 안전한 서울을 만들 수 있을것이라 판단</br>
+ ![결론](https://github.com/suhyun0115/crime_project/assets/151902232/3bc5a613-30e0-462e-ad79-e537bf1981be)
 
 ## IV. 자료출처
  &nbsp;&nbsp;&nbsp; 1) 범죄율 : https://data.seoul.go.kr/dataList/316/S/2/datasetView.do</br>
