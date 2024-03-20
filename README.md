@@ -70,7 +70,7 @@
 ## Ⅲ. 최종결론
  &nbsp;&nbsp;&nbsp; 범죄의 건수는 인구수와 사업체수와 강한 상관관계를 보여줌</br>
  &nbsp;&nbsp;&nbsp; 안전한 서울을 위해 인구당 CCTV 비율이 낮을 곳을 위주로 설치(정비)하면 안전한 서울을 만들 수 있을것이라 판단</br>
- ![결론](https://github.com/suhyun0115/crime_project/assets/151902232/3bc5a613-30e0-462e-ad79-e537bf1981be)
+ ![결론](https://github.com/suhyun0115/crime_project/assets/151902232/314cde95-b0ec-4071-8993-285b5d3a3335)
 
 ## IV. 자료출처
  &nbsp;&nbsp;&nbsp; 1) 범죄율 : https://data.seoul.go.kr/dataList/316/S/2/datasetView.do</br>
